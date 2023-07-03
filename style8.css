@@ -1,0 +1,152 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #ffc185;
+  box-sizing: border-box;
+}
+div{
+    position:absolute;
+	width: auto;
+	height:auto;
+	top: calc(50% - 240px);
+	left: calc(50% - 160px);
+}
+form{
+    position: absolute;
+	text-align: center;
+	background: #fff;
+	width: 310px;
+	height: 530px;
+	border-radius: 5px;
+	padding: 1px 20px 0 20px;
+	box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #87613d;
+	margin-bottom: 40px;
+}
+p > span {
+	padding-top: 3px;
+	display: block;
+	font-weight: 400;
+	font-size: 9px;
+}
+h3 {
+	font-family: 'Dosis';
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #87613d;
+	margin-bottom: 30px;
+}
+input{
+    outline: none !important;
+}
+.campos{
+    border: none;
+	border-bottom: 1px solid #ffc185;
+	width: 85%;
+	font-family: 'Roboto';
+	color: #ff7d00;
+	text-align: center;
+	font-size: 21px;
+	font-weight:100;
+	margin-bottom:10px;
+}
+::-webkit-input-placeholder {
+    color: #ffc185;
+     font-family: 'Roboto';
+     font-weight:100;
+ }
+ :-moz-placeholder {
+    color: #ffc185;  
+     font-family: 'Roboto';
+     font-weight:100;
+ }
+ 
+ ::-moz-placeholder {
+    color: #ffc185;  
+     font-family: 'Roboto';
+     font-weight:100;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #ffc185; 
+     font-family: 'Roboto';
+     font-weight:100;
+ }
+ .btn-v{
+    position: absolute;
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+	border: 0;
+	font-family: 'Dosis';
+	font-size: 24px;
+	text-transform: uppercase;
+	cursor: pointer;
+    left: 0;
+	border-radius: 0 0 0 5px;
+	transition:all 0.3s linear;
+ }
+ .btn-v-color{
+    background-color: rgba(255, 125, 0, 0.35);
+	color: #fff;
+ }
+ .btn-v-color:hover{
+    background-color:rgba(255, 125, 0, 0.65);
+	color: #fff;
+    box-shadow: 0 8px 24px 0 rgba(230, 163, 101, 0.65);
+ }
+ .btn-v-color:active{
+    background-color:rgba(255, 255, 255, 0.747);
+	color: rgba(255, 125, 0, 0.65);
+ }
+ dialog::backdrop{
+    background-color: rgba(0,0,0,0.77);
+ }
+ dialog{
+    width: 450px;
+    height: 200px;
+    margin: auto auto ;
+    border-radius: 15px;
+    border: none;
+    max-width: 50ch;
+ }
+ .estilo-cont{
+    text-align: center;
+    font-family: 'Dosis';
+    font-weight: 900;
+    font-size: 30;
+ }
+ .btn-c{
+    position: absolute;
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+	border: 0;
+	font-family: 'Dosis';
+	font-size: 24px;
+	text-transform: uppercase;
+	cursor: pointer;
+    left: 0;
+	border-radius: 0 0 0 5px;
+	transition:all 0.3s linear;
+ }
+ .btn-c-color{
+    background-color: rgba(255, 125, 0, 0.35);
+	color: #fff;
+ }
+ .btn-c-color:hover{
+    background-color:rgba(255, 125, 0, 0.65);
+	color: #fff;
+    box-shadow: 0 8px 24px 0 rgba(230, 163, 101, 0.65);
+ }
+ .btn-c-color:active{
+    background-color:rgba(255, 255, 255, 0.747);
+	color: rgba(255, 125, 0, 0.65);
+ }
+

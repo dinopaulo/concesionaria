@@ -1,0 +1,72 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 8</title>
+    <link rel="stylesheet" href="/static/css/style8.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div>
+      <form class="compra_Auto">
+        <h3>Verificacion de presupuesto para automoviles</h3>
+        <p>Ingresa los datos requeridos</p>
+        <input
+          type="text"
+          class="campos"
+          placeholder="Ingrese su nombre"
+          autocomplete="off"
+          id="nom"
+        />
+        <input
+          type="text"
+          class="campos"
+          placeholder="Ingrese su apellido"
+          autocomplete="off"
+          id="ape"
+        />
+        <input
+          type="text"
+          class="campos"
+          placeholder="Ingrese su cedula"
+          id="c_i"
+          autocomplete=" off"
+        />
+        <input
+          type="number"
+          class="campos"
+          placeholder="Ingrese su presupuesto"
+          id="presu"
+        />
+        <p class="boton-resultado">
+          <input
+            type="button"
+            class="btn-v btn-v-color"
+            value="VERIFICAR PRESUPUESTO"
+            onclick="calculo();"
+            
+          />
+        </p>
+      </form>
+    </div>
+    <dialog class="modal" id="mainModal">
+      <p class = "estilo-cont" id="resultado-v"></p>
+      <p class="btn-cerrar-dialog">
+        <input
+          type="button"
+          class="btn-c btn-c-color"
+          value="CERRAR"
+          onclick="cerrar();"
+         
+        />
+      </p>
+    </dialog>
+    <script src="/static/js/funciones8.js"></script>
+  </body>
+</html>
